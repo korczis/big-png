@@ -1,6 +1,6 @@
 # big-png
 
-***Original work: https://www.bamsoftware.com/hacks/deflate.html***
+***Original author: https://www.bamsoftware.com/hacks/deflate.html***
 
 Biggest image in the smallest space
 
