@@ -21,4 +21,4 @@ The image is almost entirely zeroes, with a secret message in the center. We gai
 
 ## Related reading
 
-* Defending Libpng Applications Against Decompression Bombs
+* [Defending Libpng Applications Against Decompression Bombs](http://libpng.sourceforge.net/decompression_bombs.html)
