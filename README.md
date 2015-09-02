@@ -12,7 +12,7 @@ The program used to make it: deflate.py.
 
 `bzr get http://www.bamsoftware.com/bzr/deflate`
 
-PNG uses DEFLATE compression in a zlib wrapper. DEFLATE can asymptotically approach a compression ratio of 1032:1: each pair of bits can represent 258 zero bytes, and then there’s some constant overhead for headers and such.
+PNG uses [DEFLATE](https://tools.ietf.org/html/rfc1951) compression in a [zlib](https://tools.ietf.org/html/rfc1950) wrapper. DEFLATE can asymptotically approach a compression ratio of 1032:1: each pair of bits can represent 258 zero bytes, and then there’s some constant overhead for headers and such.
 
 The image is almost entirely zeroes, with a secret message in the center. We gain an extra factor of 8 pixels by using a 1-bit colorspace. Even with this maximum compression, the PNG file is basically a long string of zero bytes. bzip2 has a run-length preprocessing step that crunches these megabytes into a few hundred bytes.
 
