@@ -16,9 +16,9 @@ The image is almost entirely zeroes, with a secret message in the center. We gai
 
 ## Things to try
 
-*Upload as your profile picture to some online service, try to crash their image processing scripts.
-*Set as your web site’s favicon; try to crash browsers that don’t check the size.
+* Upload as your profile picture to some online service, try to crash their image processing scripts.
+* Set as your web site’s favicon; try to crash browsers that don’t check the size.
 
 ## Related reading
 
-*Defending Libpng Applications Against Decompression Bombs
+* Defending Libpng Applications Against Decompression Bombs
