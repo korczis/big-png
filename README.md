@@ -1,5 +1,7 @@
 # big-png
 
+***Original work: https://www.bamsoftware.com/hacks/deflate.html***
+
 Biggest image in the smallest space
 
 What’s the biggest pixel size of a PNG image in the smallest number of bytes? I wanted to try to create an image that could be downloaded but whose pixel buffer would be too big to store in the RAM of a PC. Here is a bzip2 file of 420 bytes that uncompresses to a PNG image of 6,132,534 bytes (5.8 MB) and 225,000 × 225,000 pixels (50.625 gigapixels), which, if represented as a pixel buffer of 3 bytes per pixel, takes about 141.4 GB.
